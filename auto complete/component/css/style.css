@@ -1,0 +1,30 @@
+body{
+  background: url(../img/34.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+h3{
+  color: aliceblue;
+}
+input{
+  width: 500px;
+  border: 1px solid red;
+  padding: 20px 30px;
+  border-radius: 50%;
+  background-color: rgb(56, 55, 54);
+  margin-top: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: rgb(244, 141, 7);
+   
+}
+input::placeholder{
+  color: rgb(20, 230, 55);
+  align-items: center;
+  text-align: center;
+ justify-content: center;   
+}
+ 
