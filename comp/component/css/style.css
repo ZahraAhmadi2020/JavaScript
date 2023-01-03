@@ -1,0 +1,24 @@
+body{
+  overflow: hidden;
+  background-color: rgb(136, 133, 133);
+   
+}
+
+
+.container{
+  padding: 200px 300px;
+  margin-top: 50px;
+  border: 5px solid orange;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  border-radius: 30%;
+}
+
+#drop_zone {
+  border: 5px solid blue;
+  width: 200px;
+  height: 100px;
+}
