@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Upload files</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="overflow-hidden">
+  <header class="  my-5 text-sm-center">
+    <h2 class="py-4">Show time</h2>
+  </header>
+  <main class="mx-5  ">
+    <article>
+      <section class="section-one" >
+        <!-- <input type="file" id="file" name="file" multiple> -->
+        
+        <input type="file" id="files" name="files" multiple onchange="handleFileSelect(event)" />
+        <br />
+        <div id="image"></div>
+        <!-- <textarea id="base64" rows="5"></textarea> -->
+        <video id="movie" controls width="440">
+        
+        </video>
+      </section>
+
+
+      <!-- progress-bar -->
+      <section class="section-two">
+        <div class="progress-container">
+          <div class="progress"></div>
+        </div>
+
+      </section>
+    </article>
+  </main>
+
+  <script src="./lib/jquery.min.js"></script>
+  <script src="./upload.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+  background : url(../img/g.webp);
+  background-size: cover;
+}
+header{
+  background-image:url(../img/21\ copy.jpeg);
+   
+   
+}
+h2{
+  color: rgb(219, 247, 3);
+}
+article{
+  padding: 20px 30px;
+}
+
+
+
+
+
+
+/* .progress-bar */
+ 
+.progress-container {
+  height: 0.8rem;
+  width:50%;
+  border-radius: 0.4rem;
+
+  background: #000;
+  margin-top: 300px;
+ 
+}
+
+.progress-container .progress {
+  height: 100%;
+  width: 0;
+  border-radius: 0.4rem;
+
+  background: #ff4754;
+
+  transition: width 0.4s ease;
+}
