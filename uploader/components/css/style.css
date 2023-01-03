@@ -1,0 +1,88 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../img/21\ copy.jpeg);
+   overflow: hidden;
+  
+}
+header{
+  background:rgb(247, 230, 133);
+  border-radius: 20px 20px 0 0;
+   
+}
+main{
+  background:url(../img/sea.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+  border-radius: 0 0 20px 20px  ;
+   
+}
+ .image-upload>input {
+   display: none;
+ }
+
+ .image-upload img {
+   width: 80px;
+   cursor: pointer;
+ }
+.box1 i{
+  margin-left: -240px;
+}
+
+/* .progress-bar */
+
+.progress-container {
+  height: 0.8rem;
+  width: 70%;
+  border-radius: 0.4rem;
+  margin-left:220px;
+  background: #000;
+  margin-top: 150px;
+
+}
+
+.progress-container .progress {
+  height: 100%;
+  width: 0;
+  border-radius: 0.4rem;
+
+  background: #ff4754;
+
+  transition: width 0.4s ease;
+}
+
+/* drag and drop  */
+.upload-area {
+  width: 40%;
+  height: 220px;
+  border: 2px solid lightgray;
+  border-radius: 50px;
+   
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 380px;
+  overflow: auto;
+
+}
+
+.upload-area:hover {
+  cursor: pointer;
+}
+
+.upload-area h1 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-family: sans-serif;
+  line-height: 30px;
+  color: rgb(10, 240, 240);
+}
+
+
+ 
